@@ -43,5 +43,14 @@ nav {
 .promotion-header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 5%;
+    padding: 15px 5%;
+}
+
+.promotion-header{ 
+    font-weight: 300;
+}
+
+.promotion-header--title{
+    font-weight: 700;
+    color: #161616;
 }
