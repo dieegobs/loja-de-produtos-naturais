@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 header{
-    border: 3px solid blue;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 80px;
     padding: 20px 5%;
 }
 
@@ -19,13 +20,18 @@ header{
     gap: 10px
 }
 
+.logo span {
+    font-weight: 700;
+    font-size: 25px;
+}
+
 nav {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-section {
+.banner {
   background-image:url("./images/banner.png");
   background-size: contain;
   width: 100%;
@@ -34,3 +40,8 @@ section {
   
 }
 
+.promotion-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
