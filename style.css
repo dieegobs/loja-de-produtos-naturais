@@ -65,7 +65,7 @@ nav {
 main {
     display: flex;
     justify-content: space-between;
-    padding: 5px 5%;
+    padding: 30px 5%;
 }
 
 .column {
@@ -84,6 +84,7 @@ gap: 10px;
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .product span {
