@@ -1,4 +1,4 @@
-# Loja de Produtos Naturaissss
+# Loja de Produtos Naturaisssss
 
 html, css e flexbox
 
